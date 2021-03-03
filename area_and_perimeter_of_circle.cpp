@@ -22,8 +22,8 @@ int main() {
     
     // output
     std::cout << "" << std::endl;
-    std::cout << "Area is " << areaOfCircle << "mm²" << std::endl;
-    std::cout << "Perimeter is " << perimeterOfCircle << "mm" << std::endl;
+    std::cout << "Area is " << areaOfCircle << "mm²." << std::endl;
+    std::cout << "Perimeter is " << perimeterOfCircle << "mm." << std::endl;
     std::cout << std::endl;
     std::cout << "Done." << std::endl;
 }
