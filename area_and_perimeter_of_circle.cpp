@@ -1,13 +1,13 @@
 // Created by: Mr. Coxall
 // Created on: Sep 2020
-// This program calculates the areaOfCircle and perimeterOfCircle of a circle
-//    with user input
+// This program calculates the area and perimeter of a circle
+//    with radius inputted from the user
 
 #include <iostream>
 #include <cmath>
 
 int main() {
-    // this function calculates the areaOfCircle and perimeterOfCircle of a circle
+    // this function calculates the area and perimeter of a circle
     int radiusOfCircle;
     int areaOfCircle;
     int perimeterOfCircle;
@@ -22,8 +22,8 @@ int main() {
     
     // output
     std::cout << "" << std::endl;
-    std::cout << "Area is " << areaOfCircle << " mm²" << std::endl;
-    std::cout << "Perimeter is " << perimeterOfCircle << " mm" << std::endl;
+    std::cout << "Area is " << areaOfCircle << "mm²" << std::endl;
+    std::cout << "Perimeter is " << perimeterOfCircle << "mm" << std::endl;
     std::cout << std::endl;
     std::cout << "Done." << std::endl;
 }
