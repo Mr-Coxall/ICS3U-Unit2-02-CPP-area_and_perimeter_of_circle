@@ -15,7 +15,7 @@ int main() {
     int perimeterOfCircle;
 
     //input
-	std::cout << "Enter radius of a circle (mm): ";
+    std::cout << "Enter radius of a circle (mm): ";
     std::cin >> radiusOfCircle;
 
     // process
@@ -24,8 +24,8 @@ int main() {
     
     // output
     std::cout << "" << std::endl;
-    std::cout << "Area is " << areaOfCircle << "mm²." << std::endl;
-    std::cout << "Perimeter is " << perimeterOfCircle << "mm." << std::endl;
+    std::cout << "Area is " << areaOfCircle << " mm²." << std::endl;
+    std::cout << "Perimeter is " << perimeterOfCircle << " mm." << std::endl;
     std::cout << std::endl;
     std::cout << "Done." << std::endl;
 }
